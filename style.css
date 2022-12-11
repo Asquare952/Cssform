@@ -19,6 +19,7 @@ form{
 .tittle{
     padding: .7rem;
     color: dodgerblue;
+    padding-top: 50px;
 }
 .form-wrapper > div {
     padding: 8px;
@@ -32,7 +33,7 @@ form{
     cursor: pointer;
 }
 .btn button{
-    padding: 0.2rem .9rem;
+    padding: 0.4rem .5rem;
     background-color: dodgerblue;
     border: none;
     color: white;
