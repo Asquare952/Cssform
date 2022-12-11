@@ -13,21 +13,23 @@ form{
     width: 400px;
     text-align: center;
     margin: 0 auto;
-    height: 330px;
+    /* height: 430px; */
+    min-height: 200px;
 }
 .tittle{
     padding: .7rem;
     color: dodgerblue;
 }
 .form-wrapper > div {
-    margin-bottom: .7rem;
-}
-.form-wrapper > div {
+    padding: 8px;
     margin: .9rem;
 }
 .form-wrapper > div > input {
     width: 100%;
-    padding: .2rem;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .btn button{
     padding: 0.2rem .9rem;
@@ -35,7 +37,8 @@ form{
     border: none;
     color: white;
     border-radius: 4px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 .btn button:hover{
     cursor: pointer;
